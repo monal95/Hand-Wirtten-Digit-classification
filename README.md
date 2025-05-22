@@ -121,12 +121,12 @@ Once the application is running, follow these steps to interact with it:
 ##  Screenshots
 
 ###  Application Interface
-
+![App Interface](https://github.com/monal95/Hand-Wirtten-Digit-classification/blob/main/App%20interface.png?raw=true)
 
 
 ###  Digit Prediction Example
 
-![App Interface](https://raw.githubusercontent.com/monal95/Hand-Wirtten-Digit-classification/2ce00af352af3a7804a03653c0c1ec85041dc796/0pred.png)
+![App Prediction](https://raw.githubusercontent.com/monal95/Hand-Wirtten-Digit-classification/2ce00af352af3a7804a03653c0c1ec85041dc796/0pred.png)
 
 ---
 
