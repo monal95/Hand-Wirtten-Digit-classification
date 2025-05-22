@@ -117,7 +117,6 @@ Once the application is running, follow these steps to interact with it:
 - If no model is found, you will be prompted to train one.
 
 ---
----
 
 ##  Screenshots
 
