@@ -119,12 +119,12 @@ Once the application is running, follow these steps to interact with it:
 ---
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-### 🎨 Application Interface
+###  Application Interface
 ![App Interface](images/app_interface.png)
 
-### 🔢 Digit Prediction Example
+###  Digit Prediction Example
 ![Prediction Example](images/prediction_example.png)
 
 ---
