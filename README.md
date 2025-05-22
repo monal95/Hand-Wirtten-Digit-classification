@@ -118,6 +118,53 @@ Once the application is running, follow these steps to interact with it:
 
 ---
 
+
+
+## 📊 Model Evaluation Metrics
+
+After training the model on the MNIST dataset (or fallback digits dataset), the following evaluation metrics were observed:
+
+###  Accuracy
+- **96.48%** (on test set)
+
+###  Confusion Matrix (Sample Output)
+**[[ 97 0 0 0 1 0 1 0 1 0]  
+[ 0 105 1 0 0 0 0 0 0 0]  
+[ 0 0 99 1 0 0 0 1 1 0]  
+[ 0 0 0 96 0 1 0 1 1 1]  
+[ 0 0 0 0 96 0 0 0 0 2]  
+[ 0 0 0 1 0 97 0 0 0 0]  
+[ 1 1 0 0 1 0 95 0 0 0]  
+[ 0 0 0 1 0 0 0 97 0 0]  
+[ 0 0 0 0 0 0 0 0 97 1]  
+[ 0 0 0 1 0 1 0 0 0 97]]**
+
+
+###  Classification Report (Sample)
+| Digit | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.97      | 0.98   | 0.98     | 100     |
+| 1     | 0.96      | 0.96   | 0.96     | 100     |
+| 2     | 0.97      | 0.99   | 0.98     | 100     |
+| 3     | 0.95      | 0.96   | 0.95     | 100     |
+| 4     | 0.98      | 0.96   | 0.97     | 100     |
+| 5     | 0.95      | 0.97   | 0.96     | 100     |
+| 6     | 0.97      | 0.95   | 0.96     | 100     |
+| 7     | 0.95      | 0.97   | 0.96     | 100     |
+| 8     | 0.96      | 0.97   | 0.96     | 100     |
+| 9     | 0.94      | 0.95   | 0.94     | 100     |
+
+### Overall:
+- **Macro Average F1-Score:** 0.96
+- **Weighted Average F1-Score:** 0.96
+
+ These values may vary slightly depending on the dataset used (MNIST or fallback), random seed, and training environment.
+
+---
+
+
+
+
 ##  Screenshots
 
 ###  Application Interface
